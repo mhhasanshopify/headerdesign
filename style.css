@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: white;
+    border-bottom-color: green;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.logo a img{
+    height: 100px;
+    width: 100px;
+}
+section{
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navigation{
+    width: 80%;
+}
+.navigation ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navigation ul li a {
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+
+
+}
+.navigation ul li{
+    text-decoration: none;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.ing{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
